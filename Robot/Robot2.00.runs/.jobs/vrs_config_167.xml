@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="clk_10M_synth_1" LaunchDir="E:/FPGA_LOGIC/Robot/Robot2.10h/Robot2.00.runs/clk_10M_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

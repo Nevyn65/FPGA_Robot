@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri Nov  1 11:48:33 2019
+# Process ID: 22384
+# Current directory: C:/Users/84646/Desktop/Robot2.15h/Robot2.00.runs/UART_DATA_FIFO_synth_1
+# Command line: vivado.exe -log UART_DATA_FIFO.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source UART_DATA_FIFO.tcl
+# Log file: C:/Users/84646/Desktop/Robot2.15h/Robot2.00.runs/UART_DATA_FIFO_synth_1/UART_DATA_FIFO.vds
+# Journal file: C:/Users/84646/Desktop/Robot2.15h/Robot2.00.runs/UART_DATA_FIFO_synth_1\vivado.jou
+#-----------------------------------------------------------
+source UART_DATA_FIFO.tcl -notrace

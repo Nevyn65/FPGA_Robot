@@ -1,0 +1,1197 @@
+
+*** Running vivado
+    with args -log robot_A7.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source robot_A7.tcl
+
+
+****** Vivado v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source robot_A7.tcl -notrace
+Command: synth_design -top robot_A7 -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 22236 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 461.156 ; gain = 102.859
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'robot_A7' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:23]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/84646/Desktop/Robot_2/sours/robort.v:121]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/84646/Desktop/Robot_2/sours/robort.v:129]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/84646/Desktop/Robot_2/sours/robort.v:130]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/84646/Desktop/Robot_2/sours/robort.v:213]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/84646/Desktop/Robot_2/sours/robort.v:214]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/84646/Desktop/Robot_2/sours/robort.v:215]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/84646/Desktop/Robot_2/sours/robort.v:216]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/84646/Desktop/Robot_2/sours/robort.v:217]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/84646/Desktop/Robot_2/sours/robort.v:218]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/84646/Desktop/Robot_2/sours/robort.v:219]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/84646/Desktop/Robot_2/sours/robort.v:220]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/84646/Desktop/Robot_2/sours/robort.v:221]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/84646/Desktop/Robot_2/sours/robort.v:222]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/84646/Desktop/Robot_2/sours/robort.v:223]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/84646/Desktop/Robot_2/sours/robort.v:224]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/84646/Desktop/Robot_2/sours/robort.v:225]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/84646/Desktop/Robot_2/sours/robort.v:226]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/84646/Desktop/Robot_2/sours/robort.v:227]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/84646/Desktop/Robot_2/sours/robort.v:228]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/84646/Desktop/Robot_2/sours/robort.v:229]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/84646/Desktop/Robot_2/sours/robort.v:230]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [C:/Users/84646/Desktop/Robot_2/sours/robort.v:231]
+INFO: [Synth 8-638] synthesizing module 'DJ_DATA_ROM' [c:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/ip/DJ_DATA_ROM/synth/DJ_DATA_ROM.vhd:66]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_DEPTH bound to: 32 - type: integer 
+	Parameter C_HAS_CLK bound to: 0 - type: integer 
+	Parameter C_HAS_D bound to: 0 - type: integer 
+	Parameter C_HAS_DPO bound to: 0 - type: integer 
+	Parameter C_HAS_DPRA bound to: 0 - type: integer 
+	Parameter C_HAS_I_CE bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_CE bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_CLK bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_RST bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_SRST bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO_CE bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO_RST bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO_SRST bound to: 0 - type: integer 
+	Parameter C_HAS_SPO bound to: 1 - type: integer 
+	Parameter C_HAS_WE bound to: 0 - type: integer 
+	Parameter C_MEM_INIT_FILE bound to: DJ_DATA_ROM.mif - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_MEM_TYPE bound to: 0 - type: integer 
+	Parameter C_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_QCE_JOINED bound to: 0 - type: integer 
+	Parameter C_QUALIFY_WE bound to: 0 - type: integer 
+	Parameter C_READ_MIF bound to: 1 - type: integer 
+	Parameter C_REG_A_D_INPUTS bound to: 0 - type: integer 
+	Parameter C_REG_DPRA_INPUT bound to: 0 - type: integer 
+	Parameter C_SYNC_ENABLE bound to: 1 - type: integer 
+	Parameter C_WIDTH bound to: 16 - type: integer 
+	Parameter C_PARSER_TYPE bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'dist_mem_gen_v8_0_12' declared at 'c:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/ip/DJ_DATA_ROM/hdl/dist_mem_gen_v8_0_vhsyn_rfs.vhd:3237' bound to instance 'U0' of component 'dist_mem_gen_v8_0_12' [c:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/ip/DJ_DATA_ROM/synth/DJ_DATA_ROM.vhd:132]
+INFO: [Synth 8-256] done synthesizing module 'DJ_DATA_ROM' (4#1) [c:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/ip/DJ_DATA_ROM/synth/DJ_DATA_ROM.vhd:66]
+INFO: [Synth 8-6157] synthesizing module 'clk_10M' [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.runs/synth_1/.Xil/Vivado-11540-DESKTOP-89AAFLI/realtime/clk_10M_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_10M' (5#1) [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.runs/synth_1/.Xil/Vivado-11540-DESKTOP-89AAFLI/realtime/clk_10M_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'BlueTooth_0' [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/new/BlueTooth_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'uart_top' [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/new/uart_top.v:9]
+	Parameter DVSR bound to: 5 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter SB_TICK bound to: 16 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'clk' [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/new/clk.v:7]
+	Parameter DVSR bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'clk' (6#1) [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/new/clk.v:7]
+INFO: [Synth 8-6157] synthesizing module 'uart_rx' [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/new/uart_rx.v:8]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter SB_TICK bound to: 16 - type: integer 
+	Parameter idle bound to: 2'b00 
+	Parameter start bound to: 2'b01 
+	Parameter data bound to: 2'b10 
+	Parameter stop bound to: 2'b11 
+WARNING: [Synth 8-567] referenced signal 's' should be on the sensitivity list [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/new/uart_rx.v:44]
+WARNING: [Synth 8-567] referenced signal 'n' should be on the sensitivity list [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/new/uart_rx.v:44]
+WARNING: [Synth 8-567] referenced signal 'rx_reg' should be on the sensitivity list [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/new/uart_rx.v:44]
+WARNING: [Synth 8-567] referenced signal 'rx_done_reg' should be on the sensitivity list [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/new/uart_rx.v:44]
+WARNING: [Synth 8-6014] Unused sequential element rx_done_reg_reg was removed.  [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/new/uart_rx.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'uart_rx' (7#1) [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/new/uart_rx.v:8]
+INFO: [Synth 8-6157] synthesizing module 'uart_tx' [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/new/uart_tx.v:9]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter SB_TICK bound to: 16 - type: integer 
+	Parameter idle bound to: 2'b00 
+	Parameter start bound to: 2'b01 
+	Parameter data bound to: 2'b10 
+	Parameter stop bound to: 2'b11 
+WARNING: [Synth 8-567] referenced signal 'tx' should be on the sensitivity list [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/new/uart_tx.v:47]
+WARNING: [Synth 8-567] referenced signal 's' should be on the sensitivity list [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/new/uart_tx.v:47]
+WARNING: [Synth 8-567] referenced signal 'n' should be on the sensitivity list [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/new/uart_tx.v:47]
+WARNING: [Synth 8-567] referenced signal 'tx_done' should be on the sensitivity list [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/new/uart_tx.v:47]
+WARNING: [Synth 8-567] referenced signal 'data_reg' should be on the sensitivity list [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/new/uart_tx.v:47]
+WARNING: [Synth 8-567] referenced signal 'din' should be on the sensitivity list [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/new/uart_tx.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'uart_tx' (8#1) [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/new/uart_tx.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'uart_top' (9#1) [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/new/uart_top.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'BlueTooth_0' (10#1) [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/new/BlueTooth_0.v:57]
+WARNING: [Synth 8-2900] ignoring illegal expression in output port connection [C:/Users/84646/Desktop/Robot_2/sours/robort.v:442]
+INFO: [Synth 8-6157] synthesizing module 'UART_DATA_FIFO' [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.runs/synth_1/.Xil/Vivado-11540-DESKTOP-89AAFLI/realtime/UART_DATA_FIFO_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'UART_DATA_FIFO' (11#1) [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.runs/synth_1/.Xil/Vivado-11540-DESKTOP-89AAFLI/realtime/UART_DATA_FIFO_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'decode' [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/new/decode.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'decode' (12#1) [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/new/decode.v:10]
+WARNING: [Synth 8-689] width (1) of port connection 'ADV_flag' does not match port width (8) of module 'decode' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:479]
+WARNING: [Synth 8-689] width (1) of port connection 'BAK_flag' does not match port width (8) of module 'decode' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:480]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1382]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1682]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1969]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/84646/Desktop/Robot_2/sours/robort.v:2494]
+INFO: [Synth 8-6157] synthesizing module 'control' [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/new/control.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'control' (13#1) [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/new/control.v:24]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_uart_decode'. This will prevent further optimization [C:/Users/84646/Desktop/Robot_2/sours/robort.v:473]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'UART_DATA_FIFO1'. This will prevent further optimization [C:/Users/84646/Desktop/Robot_2/sours/robort.v:445]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'DJ_DATA_ROM'. This will prevent further optimization [C:/Users/84646/Desktop/Robot_2/sours/robort.v:238]
+WARNING: [Synth 8-6014] Unused sequential element Count_1M_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:304]
+WARNING: [Synth 8-6014] Unused sequential element CLK_1M_tmp1_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:310]
+WARNING: [Synth 8-6014] Unused sequential element CLK_1M_tmp2_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:314]
+WARNING: [Synth 8-6014] Unused sequential element CLK_1M_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:315]
+WARNING: [Synth 8-6014] Unused sequential element RUN_J_2_5_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:725]
+WARNING: [Synth 8-3848] Net UART_TX in module/entity robot_A7 does not have driver. [C:/Users/84646/Desktop/Robot_2/sours/robort.v:170]
+INFO: [Synth 8-6155] done synthesizing module 'robot_A7' (14#1) [C:/Users/84646/Desktop/Robot_2/sours/robort.v:23]
+WARNING: [Synth 8-3917] design robot_A7 has port A_DIR[2] driven by constant 1
+WARNING: [Synth 8-3917] design robot_A7 has port A_DIR[1] driven by constant 1
+WARNING: [Synth 8-3917] design robot_A7 has port B_DIR[2] driven by constant 1
+WARNING: [Synth 8-3917] design robot_A7 has port B_DIR[1] driven by constant 1
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[15]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[14]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[13]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[12]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[11]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[10]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[9]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[8]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[7]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[6]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[5]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[4]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[3]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[2]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[1]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[0]
+WARNING: [Synth 8-3331] design rom has unconnected port clk
+WARNING: [Synth 8-3331] design rom has unconnected port qspo_ce
+WARNING: [Synth 8-3331] design rom has unconnected port qspo_rst
+WARNING: [Synth 8-3331] design rom has unconnected port qspo_srst
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[15]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[14]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[13]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[12]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[11]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[10]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[9]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[8]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[7]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[6]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[5]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[4]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[3]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[2]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[1]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[0]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[15]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[14]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[13]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[12]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[11]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[10]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[9]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[8]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[7]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[6]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[5]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[4]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[3]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[2]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[1]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[0]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port d[15]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port d[14]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port d[13]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port d[12]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port d[11]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port d[10]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port d[9]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port d[8]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port d[7]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port d[6]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port d[5]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port d[4]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port d[3]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port d[2]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port d[1]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port d[0]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpra[4]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpra[3]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpra[2]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpra[1]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpra[0]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port we
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port i_ce
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo_ce
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo_clk
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo_rst
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo_srst
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12 has unconnected port d[15]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12 has unconnected port d[14]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12 has unconnected port d[13]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12 has unconnected port d[12]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12 has unconnected port d[11]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12 has unconnected port d[10]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12 has unconnected port d[9]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12 has unconnected port d[8]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12 has unconnected port d[7]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12 has unconnected port d[6]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12 has unconnected port d[5]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12 has unconnected port d[4]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12 has unconnected port d[3]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12 has unconnected port d[2]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12 has unconnected port d[1]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12 has unconnected port d[0]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12 has unconnected port dpra[4]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12 has unconnected port dpra[3]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12 has unconnected port dpra[2]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12 has unconnected port dpra[1]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12 has unconnected port dpra[0]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 544.504 ; gain = 186.207
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 544.504 ; gain = 186.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 544.504 ; gain = 186.207
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/ip/UART_DATA_FIFO/UART_DATA_FIFO/UART_DATA_FIFO_in_context.xdc] for cell 'UART_DATA_FIFO1'
+Finished Parsing XDC File [c:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/ip/UART_DATA_FIFO/UART_DATA_FIFO/UART_DATA_FIFO_in_context.xdc] for cell 'UART_DATA_FIFO1'
+Parsing XDC File [c:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/ip/clk_10M/clk_10M/clk_10M_in_context.xdc] for cell 'clk_10M_1'
+Finished Parsing XDC File [c:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/ip/clk_10M/clk_10M/clk_10M_in_context.xdc] for cell 'clk_10M_1'
+Parsing XDC File [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/constrs_1/new/Robot.xdc]
+WARNING: [Vivado 12-584] No ports matched 'CMOD_EYE'. [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/constrs_1/new/Robot.xdc:56]
+Finished Parsing XDC File [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/constrs_1/new/Robot.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/constrs_1/new/Robot.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/robot_A7_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/constrs_1/new/Robot.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/robot_A7_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/robot_A7_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/84646/Desktop/Robot2.15h/Robot2.00.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 884.617 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 884.617 ; gain = 526.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 884.617 ; gain = 526.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for CLK. (constraint file  c:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/ip/clk_10M/clk_10M/clk_10M_in_context.xdc, line 5).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for CLK. (constraint file  c:/Users/84646/Desktop/Robot2.15h/Robot2.00.srcs/sources_1/ip/clk_10M/clk_10M/clk_10M_in_context.xdc, line 6).
+Applied set_property DONT_TOUCH = true for DJ_DATA_ROM. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for UART_DATA_FIFO1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for clk_10M_1. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 884.617 ; gain = 526.320
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'uart_rx'
+INFO: [Synth 8-5544] ROM "rx_done" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "s_next" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "n_next" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'uart_tx'
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "s_next" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tx_next" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "ADV_flag" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "BAK_flag" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1682]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1682]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1467]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1467]
+INFO: [Synth 8-5546] ROM "SW_Count_CTRL" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RUN_L_C" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RUN_L_1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RUN_L_1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RUN_X_C" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RUN_X_1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RUN_X_1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RUN_J_C" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RUN_J_1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RUN_HS_C" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RUN_HS_1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RUN_Q_C" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RUN_Q_1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RUN_QGF_C" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RUN_QGF_1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "RUN_Q10" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "RUN_Q10" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 |                               00
+                   start |                               01 |                               01
+                    data |                               10 |                               10
+                    stop |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'uart_rx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 |                               00
+                   start |                               01 |                               01
+                    data |                               10 |                               10
+                    stop |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'uart_tx'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:45 ; elapsed = 00:00:50 . Memory (MB): peak = 884.617 ; gain = 526.320
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |robot_A7__GB0 |           1|     30713|
+|2     |robot_A7__GB1 |           1|     10471|
+|3     |robot_A7__GB2 |           1|     13980|
++------+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     18 Bit       Adders := 1     
+	   3 Input     15 Bit       Adders := 155   
+	   2 Input     15 Bit       Adders := 142   
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 86    
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 4     
+	   2 Input      3 Bit       Adders := 1     
+	   2 Input      1 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               18 Bit    Registers := 1     
+	               16 Bit    Registers := 18    
+	               15 Bit    Registers := 17    
+	               10 Bit    Registers := 2     
+	                9 Bit    Registers := 2     
+	                8 Bit    Registers := 9     
+	                6 Bit    Registers := 102   
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 6     
+	                3 Bit    Registers := 3     
+	                1 Bit    Registers := 56    
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 17    
+	  16 Input     16 Bit        Muxes := 17    
+	   2 Input     15 Bit        Muxes := 279   
+	  13 Input     15 Bit        Muxes := 14    
+	   8 Input     15 Bit        Muxes := 4     
+	   7 Input     15 Bit        Muxes := 4     
+	   4 Input     15 Bit        Muxes := 1     
+	   8 Input     14 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 2     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 5     
+	   3 Input      8 Bit        Muxes := 3     
+	   2 Input      6 Bit        Muxes := 4     
+	  11 Input      6 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 4     
+	   4 Input      4 Bit        Muxes := 4     
+	  12 Input      4 Bit        Muxes := 1     
+	  13 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 2     
+	  13 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 29    
+	   3 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 13    
+	  12 Input      1 Bit        Muxes := 2     
+	  13 Input      1 Bit        Muxes := 2     
+	  14 Input      1 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module robot_A7 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     15 Bit       Adders := 155   
+	   2 Input     15 Bit       Adders := 142   
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 86    
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      1 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 17    
+	               15 Bit    Registers := 17    
+	               10 Bit    Registers := 2     
+	                9 Bit    Registers := 2     
+	                8 Bit    Registers := 4     
+	                6 Bit    Registers := 102   
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 3     
+	                1 Bit    Registers := 52    
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 17    
+	  16 Input     16 Bit        Muxes := 17    
+	   2 Input     15 Bit        Muxes := 279   
+	  13 Input     15 Bit        Muxes := 14    
+	   8 Input     15 Bit        Muxes := 4     
+	   7 Input     15 Bit        Muxes := 4     
+	   4 Input     15 Bit        Muxes := 1     
+	   8 Input     14 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 4     
+	  11 Input      6 Bit        Muxes := 1     
+	  12 Input      4 Bit        Muxes := 1     
+	  13 Input      4 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 2     
+	  13 Input      2 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 22    
+	  12 Input      1 Bit        Muxes := 2     
+	  13 Input      1 Bit        Muxes := 2     
+	  14 Input      1 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 1     
+Module clk 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 1     
+Module uart_rx 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 5     
+Module uart_tx 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 8     
+Module uart_top 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module decode 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 3     
+	   3 Input      8 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 2     
+Module control 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     18 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_5_reg[5:0]' into 'RUN_QGF_2_5_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1244]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_1_reg[5:0]' into 'RUN_QGF_2_1_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1192]
+INFO: [Synth 8-4471] merging register 'RUN_L_2_1_reg[5:0]' into 'RUN_L_2_1_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:574]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_7_reg[5:0]' into 'RUN_QGF_2_7_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1270]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_5_reg[5:0]' into 'RUN_QGF_2_5_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1244]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_1_reg[5:0]' into 'RUN_QGF_2_1_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1192]
+INFO: [Synth 8-4471] merging register 'RUN_L_2_1_reg[5:0]' into 'RUN_L_2_1_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:574]
+INFO: [Synth 8-4471] merging register 'RUN_L_2_1_reg[5:0]' into 'RUN_L_2_1_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:574]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_2_reg[5:0]' into 'RUN_QGF_2_2_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1205]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_7_reg[5:0]' into 'RUN_QGF_2_7_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1270]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_5_reg[5:0]' into 'RUN_QGF_2_5_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1244]
+INFO: [Synth 8-4471] merging register 'RUN_L_2_1_reg[5:0]' into 'RUN_L_2_1_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:574]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_10_reg[5:0]' into 'RUN_QGF_2_10_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1309]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_7_reg[5:0]' into 'RUN_QGF_2_7_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1270]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_6_reg[5:0]' into 'RUN_QGF_2_6_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1257]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_2_reg[5:0]' into 'RUN_QGF_2_2_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1205]
+INFO: [Synth 8-4471] merging register 'RUN_Q_2_12_reg[5:0]' into 'RUN_Q_2_12_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1137]
+INFO: [Synth 8-4471] merging register 'RUN_Q_2_9_reg[5:0]' into 'RUN_Q_2_9_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1098]
+INFO: [Synth 8-4471] merging register 'RUN_Q_2_8_reg[5:0]' into 'RUN_Q_2_8_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1085]
+INFO: [Synth 8-4471] merging register 'RUN_Q_2_5_reg[5:0]' into 'RUN_Q_2_5_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1046]
+INFO: [Synth 8-4471] merging register 'RUN_Q_2_4_reg[5:0]' into 'RUN_Q_2_4_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1033]
+INFO: [Synth 8-4471] merging register 'RUN_X_2_1_reg[5:0]' into 'RUN_X_2_1_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:621]
+INFO: [Synth 8-4471] merging register 'RUN_L_2_1_reg[5:0]' into 'RUN_L_2_1_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:574]
+INFO: [Synth 8-4471] merging register 'RUN_Q_2_6_reg[5:0]' into 'RUN_Q_2_6_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1059]
+INFO: [Synth 8-4471] merging register 'RUN_HS_2_11_reg[5:0]' into 'RUN_HS_2_11_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:937]
+INFO: [Synth 8-4471] merging register 'RUN_Q_2_8_reg[5:0]' into 'RUN_Q_2_8_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1085]
+INFO: [Synth 8-4471] merging register 'RUN_HS_2_2_reg[5:0]' into 'RUN_HS_2_2_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:820]
+INFO: [Synth 8-4471] merging register 'RUN_Q_2_9_reg[5:0]' into 'RUN_Q_2_9_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1098]
+INFO: [Synth 8-4471] merging register 'RUN_Q_2_10_reg[5:0]' into 'RUN_Q_2_10_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1111]
+INFO: [Synth 8-4471] merging register 'RUN_J_2_7_reg[5:0]' into 'RUN_J_2_7_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:751]
+INFO: [Synth 8-4471] merging register 'RUN_Q_2_12_reg[5:0]' into 'RUN_Q_2_12_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1137]
+INFO: [Synth 8-4471] merging register 'RUN_L_2_1_reg[5:0]' into 'RUN_L_2_1_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:574]
+INFO: [Synth 8-4471] merging register 'RUN_L_2_1_reg[5:0]' into 'RUN_L_2_1_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:574]
+INFO: [Synth 8-4471] merging register 'RUN_X_2_1_reg[5:0]' into 'RUN_X_2_1_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:621]
+INFO: [Synth 8-4471] merging register 'RUN_X_2_1_reg[5:0]' into 'RUN_X_2_1_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:621]
+INFO: [Synth 8-4471] merging register 'RUN_J_2_1_reg[5:0]' into 'RUN_J_2_1_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:673]
+INFO: [Synth 8-4471] merging register 'RUN_J_2_1_reg[5:0]' into 'RUN_J_2_1_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:673]
+INFO: [Synth 8-4471] merging register 'RUN_J_2_7_reg[5:0]' into 'RUN_J_2_7_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:751]
+INFO: [Synth 8-4471] merging register 'RUN_J_2_7_reg[5:0]' into 'RUN_J_2_7_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:751]
+INFO: [Synth 8-4471] merging register 'RUN_HS_2_1_reg[5:0]' into 'RUN_HS_2_1_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:807]
+INFO: [Synth 8-4471] merging register 'RUN_HS_2_11_reg[5:0]' into 'RUN_HS_2_11_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:937]
+INFO: [Synth 8-4471] merging register 'RUN_HS_2_11_reg[5:0]' into 'RUN_HS_2_11_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:937]
+INFO: [Synth 8-4471] merging register 'RUN_Q_2_1_reg[5:0]' into 'RUN_Q_2_1_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:994]
+INFO: [Synth 8-4471] merging register 'RUN_Q_2_2_reg[5:0]' into 'RUN_Q_2_2_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1007]
+INFO: [Synth 8-4471] merging register 'RUN_Q_2_4_reg[5:0]' into 'RUN_Q_2_4_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1033]
+INFO: [Synth 8-4471] merging register 'RUN_Q_2_5_reg[5:0]' into 'RUN_Q_2_5_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1046]
+INFO: [Synth 8-4471] merging register 'RUN_Q_2_6_reg[5:0]' into 'RUN_Q_2_6_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1059]
+INFO: [Synth 8-4471] merging register 'RUN_Q_2_7_reg[5:0]' into 'RUN_Q_2_7_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1072]
+INFO: [Synth 8-4471] merging register 'RUN_Q_2_8_reg[5:0]' into 'RUN_Q_2_8_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1085]
+INFO: [Synth 8-4471] merging register 'RUN_Q_2_9_reg[5:0]' into 'RUN_Q_2_9_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1098]
+INFO: [Synth 8-4471] merging register 'RUN_Q_2_10_reg[5:0]' into 'RUN_Q_2_10_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1111]
+INFO: [Synth 8-4471] merging register 'RUN_Q_2_11_reg[5:0]' into 'RUN_Q_2_11_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1124]
+INFO: [Synth 8-4471] merging register 'RUN_Q_2_12_reg[5:0]' into 'RUN_Q_2_12_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1137]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_1_reg[5:0]' into 'RUN_QGF_2_1_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1192]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_2_reg[5:0]' into 'RUN_QGF_2_2_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1205]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_2_reg[5:0]' into 'RUN_QGF_2_2_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1205]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_3_reg[5:0]' into 'RUN_QGF_2_3_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1218]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_3_reg[5:0]' into 'RUN_QGF_2_3_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1218]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_5_reg[5:0]' into 'RUN_QGF_2_5_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1244]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_7_reg[5:0]' into 'RUN_QGF_2_7_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1270]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_7_reg[5:0]' into 'RUN_QGF_2_7_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1270]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_8_reg[5:0]' into 'RUN_QGF_2_8_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1283]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_8_reg[5:0]' into 'RUN_QGF_2_8_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1283]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_9_reg[5:0]' into 'RUN_QGF_2_9_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1296]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_10_reg[5:0]' into 'RUN_QGF_2_10_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1309]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_10_reg[5:0]' into 'RUN_QGF_2_10_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1309]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_9_reg[5:0]' into 'RUN_QGF_2_9_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1296]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_7_reg[5:0]' into 'RUN_QGF_2_7_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1270]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_5_reg[5:0]' into 'RUN_QGF_2_5_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1244]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_3_reg[5:0]' into 'RUN_QGF_2_3_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1218]
+INFO: [Synth 8-4471] merging register 'RUN_J_2_4_reg[5:0]' into 'RUN_J_2_4_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:712]
+INFO: [Synth 8-4471] merging register 'RUN_J_2_6_reg[5:0]' into 'RUN_J_2_6_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:738]
+INFO: [Synth 8-4471] merging register 'RUN_J_2_6_reg[5:0]' into 'RUN_J_2_6_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:738]
+INFO: [Synth 8-4471] merging register 'RUN_J_2_2_reg[5:0]' into 'RUN_J_2_2_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:686]
+INFO: [Synth 8-4471] merging register 'RUN_HS_2_9_reg[5:0]' into 'RUN_HS_2_9_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:911]
+INFO: [Synth 8-4471] merging register 'RUN_HS_2_7_reg[5:0]' into 'RUN_HS_2_7_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:885]
+INFO: [Synth 8-4471] merging register 'RUN_HS_2_5_reg[5:0]' into 'RUN_HS_2_5_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:859]
+INFO: [Synth 8-4471] merging register 'RUN_HS_2_3_reg[5:0]' into 'RUN_HS_2_3_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:833]
+INFO: [Synth 8-4471] merging register 'RUN_HS_2_10_reg[5:0]' into 'RUN_HS_2_10_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:924]
+INFO: [Synth 8-4471] merging register 'RUN_HS_2_8_reg[5:0]' into 'RUN_HS_2_8_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:898]
+INFO: [Synth 8-4471] merging register 'RUN_HS_2_6_reg[5:0]' into 'RUN_HS_2_6_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:872]
+INFO: [Synth 8-4471] merging register 'RUN_HS_2_4_reg[5:0]' into 'RUN_HS_2_4_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:846]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_8_reg[5:0]' into 'RUN_QGF_2_8_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1283]
+INFO: [Synth 8-4471] merging register 'RUN_L_2_1_reg[5:0]' into 'RUN_L_2_1_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:574]
+INFO: [Synth 8-4471] merging register 'RUN_X_2_1_reg[5:0]' into 'RUN_X_2_1_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:621]
+INFO: [Synth 8-4471] merging register 'RUN_J_2_1_reg[5:0]' into 'RUN_J_2_1_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:673]
+INFO: [Synth 8-4471] merging register 'RUN_J_2_4_reg[5:0]' into 'RUN_J_2_4_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:712]
+INFO: [Synth 8-4471] merging register 'RUN_J_2_6_reg[5:0]' into 'RUN_J_2_6_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:738]
+INFO: [Synth 8-4471] merging register 'RUN_J_2_7_reg[5:0]' into 'RUN_J_2_7_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:751]
+INFO: [Synth 8-4471] merging register 'RUN_HS_2_1_reg[5:0]' into 'RUN_HS_2_1_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:807]
+INFO: [Synth 8-4471] merging register 'RUN_HS_2_11_reg[5:0]' into 'RUN_HS_2_11_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:937]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_10_reg[5:0]' into 'RUN_QGF_2_10_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1309]
+INFO: [Synth 8-4471] merging register 'RUN_Q_2_2_reg[5:0]' into 'RUN_Q_2_2_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1007]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_6_reg[5:0]' into 'RUN_QGF_2_6_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1257]
+INFO: [Synth 8-4471] merging register 'RUN_Q_2_6_reg[5:0]' into 'RUN_Q_2_6_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1059]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_2_reg[5:0]' into 'RUN_QGF_2_2_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1205]
+INFO: [Synth 8-4471] merging register 'RUN_Q_2_10_reg[5:0]' into 'RUN_Q_2_10_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1111]
+INFO: [Synth 8-4471] merging register 'RUN_Q_2_12_reg[5:0]' into 'RUN_Q_2_12_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1137]
+INFO: [Synth 8-4471] merging register 'RUN_Q_2_11_reg[5:0]' into 'RUN_Q_2_11_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1124]
+INFO: [Synth 8-4471] merging register 'RUN_QGF_2_2_reg[5:0]' into 'RUN_QGF_2_2_reg[5:0]' [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1205]
+INFO: [Common 17-14] Message 'Synth 8-4471' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_5_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1244]
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_3_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1218]
+WARNING: [Synth 8-6014] Unused sequential element RUN_L_2_1_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:574]
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_5_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1244]
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_9_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1296]
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_2_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1205]
+WARNING: [Synth 8-6014] Unused sequential element RUN_HS_2_11_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:937]
+WARNING: [Synth 8-6014] Unused sequential element RUN_HS_2_2_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:820]
+WARNING: [Synth 8-6014] Unused sequential element RUN_J_2_7_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:751]
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_1_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1192]
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_10_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1309]
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_7_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1270]
+WARNING: [Synth 8-6014] Unused sequential element RUN_L_2_1_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:574]
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_7_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1270]
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_5_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1244]
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_1_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1192]
+WARNING: [Synth 8-6014] Unused sequential element RUN_Q_2_12_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1137]
+WARNING: [Synth 8-6014] Unused sequential element RUN_Q_2_9_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1098]
+WARNING: [Synth 8-6014] Unused sequential element RUN_Q_2_8_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1085]
+WARNING: [Synth 8-6014] Unused sequential element RUN_L_2_1_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:574]
+WARNING: [Synth 8-6014] Unused sequential element RUN_L_2_1_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:574]
+WARNING: [Synth 8-6014] Unused sequential element RUN_X_2_1_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:621]
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_2_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1205]
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_7_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1270]
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_6_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1257]
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_5_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1244]
+WARNING: [Synth 8-6014] Unused sequential element RUN_L_2_1_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:574]
+WARNING: [Synth 8-6014] Unused sequential element RUN_J_2_6_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:738]
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_10_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1309]
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_8_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1283]
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_7_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1270]
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_6_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1257]
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_4_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1231]
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_2_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1205]
+WARNING: [Synth 8-6014] Unused sequential element RUN_Q_2_12_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1137]
+WARNING: [Synth 8-6014] Unused sequential element RUN_Q_2_10_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1111]
+WARNING: [Synth 8-6014] Unused sequential element RUN_J_2_4_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:712]
+WARNING: [Synth 8-6014] Unused sequential element RUN_J_2_1_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:673]
+WARNING: [Synth 8-6014] Unused sequential element RUN_Q_2_9_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1098]
+WARNING: [Synth 8-6014] Unused sequential element RUN_Q_2_8_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1085]
+WARNING: [Synth 8-6014] Unused sequential element RUN_Q_2_6_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1059]
+WARNING: [Synth 8-6014] Unused sequential element RUN_Q_2_5_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1046]
+WARNING: [Synth 8-6014] Unused sequential element RUN_Q_2_4_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1033]
+WARNING: [Synth 8-6014] Unused sequential element RUN_X_2_1_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:621]
+WARNING: [Synth 8-6014] Unused sequential element RUN_L_2_1_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:574]
+WARNING: [Synth 8-6014] Unused sequential element RUN_HS_2_11_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:937]
+WARNING: [Synth 8-6014] Unused sequential element RUN_HS_2_2_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:820]
+WARNING: [Synth 8-6014] Unused sequential element RUN_J_2_7_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:751]
+WARNING: [Synth 8-6014] Unused sequential element RUN_J_2_2_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:686]
+WARNING: [Synth 8-6014] Unused sequential element RUN_L_2_1_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:574]
+WARNING: [Synth 8-6014] Unused sequential element RUN_X_2_1_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:621]
+WARNING: [Synth 8-6014] Unused sequential element RUN_J_2_1_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:673]
+WARNING: [Synth 8-6014] Unused sequential element RUN_J_2_7_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:751]
+WARNING: [Synth 8-6014] Unused sequential element RUN_HS_2_1_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:807]
+WARNING: [Synth 8-6014] Unused sequential element RUN_HS_2_11_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:937]
+WARNING: [Synth 8-6014] Unused sequential element RUN_Q_2_1_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:994]
+WARNING: [Synth 8-6014] Unused sequential element RUN_Q_2_2_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1007]
+WARNING: [Synth 8-6014] Unused sequential element RUN_Q_2_4_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1033]
+WARNING: [Synth 8-6014] Unused sequential element RUN_Q_2_5_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1046]
+WARNING: [Synth 8-6014] Unused sequential element RUN_Q_2_6_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1059]
+WARNING: [Synth 8-6014] Unused sequential element RUN_Q_2_7_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1072]
+WARNING: [Synth 8-6014] Unused sequential element RUN_Q_2_8_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1085]
+WARNING: [Synth 8-6014] Unused sequential element RUN_Q_2_9_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1098]
+WARNING: [Synth 8-6014] Unused sequential element RUN_Q_2_10_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1111]
+WARNING: [Synth 8-6014] Unused sequential element RUN_Q_2_11_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1124]
+WARNING: [Synth 8-6014] Unused sequential element RUN_Q_2_12_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1137]
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_2_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1205]
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_3_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1218]
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_7_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1270]
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_8_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1283]
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_10_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1309]
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_9_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1296]
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_7_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1270]
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_5_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1244]
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_3_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1218]
+WARNING: [Synth 8-6014] Unused sequential element RUN_J_2_6_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:738]
+WARNING: [Synth 8-6014] Unused sequential element RUN_J_2_2_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:686]
+WARNING: [Synth 8-6014] Unused sequential element RUN_HS_2_9_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:911]
+WARNING: [Synth 8-6014] Unused sequential element RUN_HS_2_7_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:885]
+WARNING: [Synth 8-6014] Unused sequential element RUN_HS_2_5_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:859]
+WARNING: [Synth 8-6014] Unused sequential element RUN_HS_2_3_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:833]
+WARNING: [Synth 8-6014] Unused sequential element RUN_HS_2_10_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:924]
+WARNING: [Synth 8-6014] Unused sequential element RUN_HS_2_8_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:898]
+WARNING: [Synth 8-6014] Unused sequential element RUN_HS_2_6_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:872]
+WARNING: [Synth 8-6014] Unused sequential element RUN_HS_2_4_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:846]
+WARNING: [Synth 8-6014] Unused sequential element RUN_J_2_3_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:699]
+WARNING: [Synth 8-6014] Unused sequential element RUN_QGF_2_8_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:1283]
+WARNING: [Synth 8-6014] Unused sequential element RUN_L_2_1_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:574]
+WARNING: [Synth 8-6014] Unused sequential element RUN_X_2_1_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:621]
+WARNING: [Synth 8-6014] Unused sequential element RUN_J_2_1_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:673]
+WARNING: [Synth 8-6014] Unused sequential element RUN_J_2_4_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:712]
+WARNING: [Synth 8-6014] Unused sequential element RUN_J_2_6_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:738]
+WARNING: [Synth 8-6014] Unused sequential element RUN_J_2_7_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:751]
+WARNING: [Synth 8-6014] Unused sequential element RUN_HS_2_1_reg was removed.  [C:/Users/84646/Desktop/Robot_2/sours/robort.v:807]
+INFO: [Common 17-14] Message 'Synth 8-6014' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-5546] ROM "RUN_Q_C" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RUN_Q_1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RUN_QGF_C" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RUN_QGF_1" won't be mapped to RAM because it is too sparse
+DSP Report: Generating DSP RUN_Q1140, operation Mode is: C+(A:0x255)*B2.
+DSP Report: register RUN_QGF_2_7_reg is absorbed into DSP RUN_Q1140.
+DSP Report: operator RUN_Q1140 is absorbed into DSP RUN_Q1140.
+DSP Report: operator RUN_Q1141 is absorbed into DSP RUN_Q1140.
+DSP Report: Generating DSP RUN_Q161, operation Mode is: (A:0x384)*B2.
+DSP Report: register RUN_QGF_2_9_reg is absorbed into DSP RUN_Q161.
+DSP Report: operator RUN_Q161 is absorbed into DSP RUN_Q161.
+DSP Report: Generating DSP RUN_Q1131, operation Mode is: (A:0x294)*B2.
+DSP Report: register RUN_HS_2_4_reg is absorbed into DSP RUN_Q1131.
+DSP Report: operator RUN_Q1131 is absorbed into DSP RUN_Q1131.
+DSP Report: Generating DSP RUN_Q1131, operation Mode is: (A:0x294)*B2.
+DSP Report: register RUN_HS_2_6_reg is absorbed into DSP RUN_Q1131.
+DSP Report: operator RUN_Q1131 is absorbed into DSP RUN_Q1131.
+DSP Report: Generating DSP RUN_Q1131, operation Mode is: (A:0x294)*B2.
+DSP Report: register RUN_HS_2_8_reg is absorbed into DSP RUN_Q1131.
+DSP Report: operator RUN_Q1131 is absorbed into DSP RUN_Q1131.
+DSP Report: Generating DSP RUN_Q1131, operation Mode is: (A:0x294)*B2.
+DSP Report: register RUN_HS_2_10_reg is absorbed into DSP RUN_Q1131.
+DSP Report: operator RUN_Q1131 is absorbed into DSP RUN_Q1131.
+DSP Report: Generating DSP RUN_Q1131, operation Mode is: (A:0x294)*B2.
+DSP Report: register RUN_HS_2_5_reg is absorbed into DSP RUN_Q1131.
+DSP Report: operator RUN_Q1131 is absorbed into DSP RUN_Q1131.
+DSP Report: Generating DSP RUN_Q1131, operation Mode is: (A:0x294)*B2.
+DSP Report: register RUN_HS_2_7_reg is absorbed into DSP RUN_Q1131.
+DSP Report: operator RUN_Q1131 is absorbed into DSP RUN_Q1131.
+DSP Report: Generating DSP RUN_Q1131, operation Mode is: (A:0x294)*B2.
+DSP Report: register RUN_HS_2_9_reg is absorbed into DSP RUN_Q1131.
+DSP Report: operator RUN_Q1131 is absorbed into DSP RUN_Q1131.
+DSP Report: Generating DSP RUN_Q1110, operation Mode is: C+(A:0x23e)*B2.
+DSP Report: register RUN_QGF_2_6_reg is absorbed into DSP RUN_Q1110.
+DSP Report: operator RUN_Q1110 is absorbed into DSP RUN_Q1110.
+DSP Report: operator RUN_Q1111 is absorbed into DSP RUN_Q1110.
+DSP Report: Generating DSP RUN_Q131, operation Mode is: (A:0x23d)*B2.
+DSP Report: register RUN_QGF_2_5_reg is absorbed into DSP RUN_Q131.
+DSP Report: operator RUN_Q131 is absorbed into DSP RUN_Q131.
+DSP Report: Generating DSP RUN_Q161, operation Mode is: (A:0x245)*B2.
+DSP Report: register RUN_QGF_2_7_reg is absorbed into DSP RUN_Q161.
+DSP Report: operator RUN_Q161 is absorbed into DSP RUN_Q161.
+DSP Report: Generating DSP RUN_Q160, operation Mode is: C+(A:0x384)*B2.
+DSP Report: register RUN_QGF_2_9_reg is absorbed into DSP RUN_Q160.
+DSP Report: operator RUN_Q160 is absorbed into DSP RUN_Q160.
+DSP Report: operator RUN_Q161 is absorbed into DSP RUN_Q160.
+WARNING: [Synth 8-3917] design robot_A7 has port A_DIR[2] driven by constant 1
+WARNING: [Synth 8-3917] design robot_A7 has port A_DIR[1] driven by constant 1
+WARNING: [Synth 8-3917] design robot_A7 has port B_DIR[2] driven by constant 1
+WARNING: [Synth 8-3917] design robot_A7 has port B_DIR[1] driven by constant 1
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart/inst/CLK_div/count_reg[31]' (FDC) to 'i_0/u_uart/inst/CLK_div/count_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart/inst/CLK_div/count_reg[30]' (FDC) to 'i_0/u_uart/inst/CLK_div/count_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart/inst/CLK_div/count_reg[26]' (FDC) to 'i_0/u_uart/inst/CLK_div/count_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart/inst/CLK_div/count_reg[27]' (FDC) to 'i_0/u_uart/inst/CLK_div/count_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart/inst/CLK_div/count_reg[28]' (FDC) to 'i_0/u_uart/inst/CLK_div/count_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart/inst/CLK_div/count_reg[29]' (FDC) to 'i_0/u_uart/inst/CLK_div/count_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart/inst/CLK_div/count_reg[20]' (FDC) to 'i_0/u_uart/inst/CLK_div/count_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart/inst/CLK_div/count_reg[21]' (FDC) to 'i_0/u_uart/inst/CLK_div/count_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart/inst/CLK_div/count_reg[18]' (FDC) to 'i_0/u_uart/inst/CLK_div/count_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart/inst/CLK_div/count_reg[19]' (FDC) to 'i_0/u_uart/inst/CLK_div/count_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart/inst/CLK_div/count_reg[24]' (FDC) to 'i_0/u_uart/inst/CLK_div/count_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart/inst/CLK_div/count_reg[25]' (FDC) to 'i_0/u_uart/inst/CLK_div/count_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart/inst/CLK_div/count_reg[22]' (FDC) to 'i_0/u_uart/inst/CLK_div/count_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart/inst/CLK_div/count_reg[23]' (FDC) to 'i_0/u_uart/inst/CLK_div/count_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart/inst/CLK_div/count_reg[9]' (FDC) to 'i_0/u_uart/inst/CLK_div/count_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart/inst/CLK_div/count_reg[10]' (FDC) to 'i_0/u_uart/inst/CLK_div/count_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart/inst/CLK_div/count_reg[7]' (FDC) to 'i_0/u_uart/inst/CLK_div/count_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart/inst/CLK_div/count_reg[8]' (FDC) to 'i_0/u_uart/inst/CLK_div/count_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart/inst/CLK_div/count_reg[3]' (FDC) to 'i_0/u_uart/inst/CLK_div/count_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart/inst/CLK_div/count_reg[4]' (FDC) to 'i_0/u_uart/inst/CLK_div/count_reg[5]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart/inst/CLK_div/count_reg[5]' (FDC) to 'i_0/u_uart/inst/CLK_div/count_reg[6]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart/inst/CLK_div/count_reg[6]' (FDC) to 'i_0/u_uart/inst/CLK_div/count_reg[11]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart/inst/CLK_div/count_reg[15]' (FDC) to 'i_0/u_uart/inst/CLK_div/count_reg[11]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart/inst/CLK_div/count_reg[16]' (FDC) to 'i_0/u_uart/inst/CLK_div/count_reg[11]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart/inst/CLK_div/count_reg[17]' (FDC) to 'i_0/u_uart/inst/CLK_div/count_reg[11]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart/inst/CLK_div/count_reg[11]' (FDC) to 'i_0/u_uart/inst/CLK_div/count_reg[12]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart/inst/CLK_div/count_reg[12]' (FDC) to 'i_0/u_uart/inst/CLK_div/count_reg[13]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart/inst/CLK_div/count_reg[13]' (FDC) to 'i_0/u_uart/inst/CLK_div/count_reg[14]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/u_uart/\inst/CLK_div/count_reg[14] )
+INFO: [Synth 8-3886] merging instance 'i_0/RUN_L_1_reg[1]' (FDRE) to 'i_0/RUN_L_1_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/\RUN_L_1_reg[2] )
+INFO: [Synth 8-3886] merging instance 'i_0/RUN_X_1_reg[1]' (FDRE) to 'i_0/RUN_X_1_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/\RUN_X_1_reg[2] )
+INFO: [Synth 8-3886] merging instance 'i_0/RUN_QGF_1_reg[5]' (FDRE) to 'i_0/RUN_QGF_1_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/\RUN_QGF_1_reg[4] )
+INFO: [Synth 8-3332] Sequential element (inst/CLK_div/count_reg[14]) is unused and will be removed from module BlueTooth_0.
+INFO: [Synth 8-3332] Sequential element (inst/TX/data_reg_reg[7]) is unused and will be removed from module BlueTooth_0.
+INFO: [Synth 8-3332] Sequential element (inst/TX/data_reg_reg[6]) is unused and will be removed from module BlueTooth_0.
+INFO: [Synth 8-3332] Sequential element (inst/TX/data_reg_reg[5]) is unused and will be removed from module BlueTooth_0.
+INFO: [Synth 8-3332] Sequential element (inst/TX/data_reg_reg[4]) is unused and will be removed from module BlueTooth_0.
+INFO: [Synth 8-3332] Sequential element (inst/TX/data_reg_reg[3]) is unused and will be removed from module BlueTooth_0.
+INFO: [Synth 8-3332] Sequential element (inst/TX/data_reg_reg[2]) is unused and will be removed from module BlueTooth_0.
+INFO: [Synth 8-3332] Sequential element (inst/TX/data_reg_reg[1]) is unused and will be removed from module BlueTooth_0.
+INFO: [Synth 8-3332] Sequential element (inst/TX/data_reg_reg[0]) is unused and will be removed from module BlueTooth_0.
+INFO: [Synth 8-3332] Sequential element (inst/TX/tx_reg) is unused and will be removed from module BlueTooth_0.
+INFO: [Synth 8-3332] Sequential element (inst/TX/tx_done_reg) is unused and will be removed from module BlueTooth_0.
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart_decode/BAK_flag_reg[1]' (FDRE) to 'i_0/u_uart_decode/BAK_flag_reg[7]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart_decode/BAK_flag_reg[2]' (FDRE) to 'i_0/u_uart_decode/BAK_flag_reg[7]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart_decode/BAK_flag_reg[3]' (FDRE) to 'i_0/u_uart_decode/BAK_flag_reg[7]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart_decode/BAK_flag_reg[4]' (FDRE) to 'i_0/u_uart_decode/BAK_flag_reg[7]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart_decode/BAK_flag_reg[5]' (FDRE) to 'i_0/u_uart_decode/BAK_flag_reg[7]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart_decode/BAK_flag_reg[6]' (FDRE) to 'i_0/u_uart_decode/BAK_flag_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/u_uart_decode/\BAK_flag_reg[7] )
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart_decode/ADV_flag_reg[1]' (FDRE) to 'i_0/u_uart_decode/ADV_flag_reg[2]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart_decode/ADV_flag_reg[2]' (FDRE) to 'i_0/u_uart_decode/ADV_flag_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart_decode/ADV_flag_reg[3]' (FDRE) to 'i_0/u_uart_decode/ADV_flag_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart_decode/ADV_flag_reg[4]' (FDRE) to 'i_0/u_uart_decode/ADV_flag_reg[5]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart_decode/ADV_flag_reg[5]' (FDRE) to 'i_0/u_uart_decode/ADV_flag_reg[6]'
+INFO: [Synth 8-3886] merging instance 'i_0/u_uart_decode/ADV_flag_reg[6]' (FDRE) to 'i_0/u_uart_decode/ADV_flag_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/u_uart_decode/\ADV_flag_reg[7] )
+WARNING: [Synth 8-3332] Sequential element (ADV_flag_reg[7]) is unused and will be removed from module decode.
+WARNING: [Synth 8-3332] Sequential element (BAK_flag_reg[7]) is unused and will be removed from module decode.
+INFO: [Synth 8-3886] merging instance 'i_0/i_1/RUN_L_C_reg[4]' (FDRE) to 'i_0/i_1/RUN_L_C_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/i_1/\RUN_L_C_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/i_1/\RUN_X_C_reg[5] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:34 ; elapsed = 00:01:41 . Memory (MB): peak = 947.293 ; gain = 588.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++---------------------+------------------------------------------------------+---------------+----------------+
+|Module Name          | RTL Object                                           | Depth x Width | Implemented As | 
++---------------------+------------------------------------------------------+---------------+----------------+
+|rom                  | rom[31]                                              | 32x16         | LUT            | 
+|dist_mem_gen_v8_0_12 | synth_options.dist_mem_inst/gen_rom.rom_inst/rom[31] | 32x16         | LUT            | 
++---------------------+------------------------------------------------------+---------------+----------------+
+
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|robot_A7    | C+(A:0x255)*B2 | 6      | 10     | 15     | -      | 15     | 1    | 0    | 0    | -    | -     | 0    | 0    | 
+|robot_A7    | (A:0x384)*B2   | 6      | 10     | -      | -      | 16     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|robot_A7    | (A:0x294)*B2   | 6      | 10     | -      | -      | 16     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|robot_A7    | (A:0x294)*B2   | 6      | 10     | -      | -      | 16     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|robot_A7    | (A:0x294)*B2   | 6      | 10     | -      | -      | 16     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|robot_A7    | (A:0x294)*B2   | 6      | 10     | -      | -      | 16     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|robot_A7    | (A:0x294)*B2   | 6      | 10     | -      | -      | 16     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|robot_A7    | (A:0x294)*B2   | 6      | 10     | -      | -      | 16     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|robot_A7    | (A:0x294)*B2   | 6      | 10     | -      | -      | 16     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|robot_A7    | C+(A:0x23e)*B2 | 6      | 10     | 15     | -      | 15     | 1    | 0    | 0    | -    | -     | 0    | 0    | 
+|robot_A7    | (A:0x23d)*B2   | 6      | 10     | -      | -      | 16     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|robot_A7    | (A:0x245)*B2   | 6      | 10     | -      | -      | 16     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|robot_A7    | C+(A:0x384)*B2 | 6      | 10     | 15     | -      | 15     | 1    | 0    | 0    | -    | -     | 0    | 0    | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |robot_A7__GB0 |           1|     24762|
+|2     |robot_A7__GB1 |           1|      4655|
+|3     |robot_A7__GB2 |           1|     10043|
++------+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk_10M_1/clk_out1' to pin 'clk_10M_1/bbstub_clk_out1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk_10M_1/clk_out2' to pin 'clk_10M_1/bbstub_clk_out2/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk_10M_1/clk_out3' to pin 'clk_10M_1/bbstub_clk_out3/O'
+INFO: [Synth 8-5819] Moved 3 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:56 ; elapsed = 00:02:04 . Memory (MB): peak = 952.316 ; gain = 594.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:02 ; elapsed = 00:02:11 . Memory (MB): peak = 997.137 ; gain = 638.840
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |robot_A7__GB0 |           1|     24762|
+|2     |robot_A7__GB1 |           1|      4655|
+|3     |robot_A7__GB2 |           1|     10043|
++------+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (RUN_Q_2_1_reg[5]) is unused and will be removed from module robot_A7.
+WARNING: [Synth 8-3332] Sequential element (RUN_Q_2_2_reg[5]) is unused and will be removed from module robot_A7.
+WARNING: [Synth 8-3332] Sequential element (RUN_Q_2_3_reg[5]) is unused and will be removed from module robot_A7.
+WARNING: [Synth 8-3332] Sequential element (RUN_Q_2_4_reg[5]) is unused and will be removed from module robot_A7.
+WARNING: [Synth 8-3332] Sequential element (RUN_Q_2_5_reg[5]) is unused and will be removed from module robot_A7.
+WARNING: [Synth 8-3332] Sequential element (RUN_Q_2_5_reg[5]__0) is unused and will be removed from module robot_A7.
+WARNING: [Synth 8-3332] Sequential element (RUN_Q_2_6_reg[5]__0) is unused and will be removed from module robot_A7.
+WARNING: [Synth 8-3332] Sequential element (RUN_Q_2_7_reg[5]__0) is unused and will be removed from module robot_A7.
+WARNING: [Synth 8-3332] Sequential element (RUN_Q_2_8_reg[5]__0) is unused and will be removed from module robot_A7.
+WARNING: [Synth 8-3332] Sequential element (RUN_Q_2_9_reg[5]__0) is unused and will be removed from module robot_A7.
+WARNING: [Synth 8-3332] Sequential element (RUN_Q_2_10_reg[5]__0) is unused and will be removed from module robot_A7.
+WARNING: [Synth 8-3332] Sequential element (RUN_Q_2_11_reg[5]__0) is unused and will be removed from module robot_A7.
+WARNING: [Synth 8-3332] Sequential element (RUN_Q_2_12_reg[5]__0) is unused and will be removed from module robot_A7.
+WARNING: [Synth 8-3332] Sequential element (RUN_Q_2_1_reg[5]__1) is unused and will be removed from module robot_A7.
+WARNING: [Synth 8-3332] Sequential element (RUN_Q_2_2_reg[5]__1) is unused and will be removed from module robot_A7.
+WARNING: [Synth 8-3332] Sequential element (RUN_Q_2_3_reg[5]__1) is unused and will be removed from module robot_A7.
+WARNING: [Synth 8-3332] Sequential element (RUN_Q_2_4_reg[5]__1) is unused and will be removed from module robot_A7.
+WARNING: [Synth 8-3332] Sequential element (RUN_Q_2_5_reg[5]__1) is unused and will be removed from module robot_A7.
+WARNING: [Synth 8-3332] Sequential element (RUN_Q_2_6_reg[5]__1) is unused and will be removed from module robot_A7.
+WARNING: [Synth 8-3332] Sequential element (RUN_Q_2_7_reg[5]__1) is unused and will be removed from module robot_A7.
+WARNING: [Synth 8-3332] Sequential element (RUN_Q_2_8_reg[5]__1) is unused and will be removed from module robot_A7.
+WARNING: [Synth 8-3332] Sequential element (RUN_Q_2_9_reg[5]__1) is unused and will be removed from module robot_A7.
+WARNING: [Synth 8-3332] Sequential element (RUN_Q_2_10_reg[5]__1) is unused and will be removed from module robot_A7.
+WARNING: [Synth 8-3332] Sequential element (RUN_Q_2_11_reg[5]__1) is unused and will be removed from module robot_A7.
+WARNING: [Synth 8-3332] Sequential element (RUN_Q_2_12_reg[5]__1) is unused and will be removed from module robot_A7.
+INFO: [Synth 8-3886] merging instance 'RUN_QGF_2_8_reg[2]__0' (FDRE) to 'RUN_QGF_2_8_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RUN_QGF_2_8_reg[4]__0' (FDRE) to 'RUN_QGF_2_8_reg[4]'
+INFO: [Synth 8-3886] merging instance 'RUN_QGF_2_8_reg[3]__0' (FDRE) to 'RUN_QGF_2_8_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RUN_QGF_2_8_reg[5]__0' (FDRE) to 'RUN_QGF_2_8_reg[5]'
+INFO: [Synth 8-3886] merging instance 'RUN_QGF_2_8_reg[1]__0' (FDRE) to 'RUN_QGF_2_8_reg[1]'
+INFO: [Synth 8-3886] merging instance 'RUN_QGF_2_8_reg[0]__0' (FDRE) to 'RUN_QGF_2_8_reg[0]'
+INFO: [Synth 8-3886] merging instance 'RUN_QGF_2_5_reg[4]__1' (FDRE) to 'RUN_QGF_2_5_reg[4]__0'
+INFO: [Synth 8-3886] merging instance 'RUN_QGF_2_5_reg[5]__1' (FDRE) to 'RUN_QGF_2_5_reg[5]__0'
+INFO: [Synth 8-3886] merging instance 'RUN_QGF_2_5_reg[3]__1' (FDRE) to 'RUN_QGF_2_5_reg[3]__0'
+INFO: [Synth 8-3886] merging instance 'RUN_J_2_4_reg[5]__0' (FDRE) to 'RUN_J_2_4_reg[5]'
+INFO: [Synth 8-3886] merging instance 'RUN_HS_2_11_reg[5]__1' (FDRE) to 'RUN_HS_2_11_reg[5]__0'
+INFO: [Synth 8-3886] merging instance 'RUN_J_2_7_reg[5]__1' (FDRE) to 'RUN_J_2_7_reg[5]__0'
+INFO: [Synth 8-3886] merging instance 'RUN_J_2_1_reg[5]__0' (FDRE) to 'RUN_J_2_1_reg[5]'
+INFO: [Synth 8-3886] merging instance 'RUN_J_2_6_reg[4]__0' (FDRE) to 'RUN_J_2_6_reg[4]'
+INFO: [Synth 8-3886] merging instance 'RUN_J_2_6_reg[5]__0' (FDRE) to 'RUN_J_2_6_reg[5]'
+INFO: [Synth 8-3886] merging instance 'RUN_HS_2_1_reg[5]__0' (FDRE) to 'RUN_HS_2_1_reg[5]'
+INFO: [Synth 8-3886] merging instance 'RUN_J_2_2_reg[3]__0' (FDRE) to 'RUN_J_2_2_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RUN_QGF_2_5_reg[4]__0' (FDRE) to 'RUN_QGF_2_5_reg[4]'
+INFO: [Synth 8-3886] merging instance 'RUN_QGF_2_5_reg[5]__0' (FDRE) to 'RUN_QGF_2_5_reg[5]'
+INFO: [Synth 8-3886] merging instance 'RUN_J_2_7_reg[1]__0' (FDRE) to 'RUN_J_2_7_reg[1]__1'
+INFO: [Synth 8-3886] merging instance 'RUN_J_2_7_reg[2]__0' (FDRE) to 'RUN_J_2_7_reg[2]__1'
+INFO: [Synth 8-3886] merging instance 'RUN_J_2_7_reg[3]__0' (FDRE) to 'RUN_J_2_7_reg[3]__1'
+INFO: [Synth 8-3886] merging instance 'RUN_Q_2_5_reg[4]__0' (FDRE) to 'RUN_Q_2_5_reg[4]__1'
+INFO: [Synth 8-3886] merging instance 'RUN_Q_2_5_reg[2]__0' (FDRE) to 'RUN_Q_2_5_reg[2]__1'
+INFO: [Synth 8-3886] merging instance 'RUN_Q_2_5_reg[3]__0' (FDRE) to 'RUN_Q_2_5_reg[3]__1'
+INFO: [Synth 8-3886] merging instance 'RUN_Q_2_9_reg[4]__0' (FDRE) to 'RUN_Q_2_9_reg[4]__1'
+INFO: [Synth 8-3886] merging instance 'RUN_Q_2_9_reg[2]__0' (FDRE) to 'RUN_Q_2_9_reg[2]__1'
+INFO: [Synth 8-3886] merging instance 'RUN_Q_2_9_reg[3]__0' (FDRE) to 'RUN_Q_2_9_reg[3]__1'
+INFO: [Synth 8-3886] merging instance 'RUN_Q_2_9_reg[2]__1' (FDRE) to 'RUN_Q_2_9_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RUN_Q_2_9_reg[3]__1' (FDRE) to 'RUN_Q_2_9_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RUN_Q_2_9_reg[4]__1' (FDRE) to 'RUN_Q_2_9_reg[4]'
+INFO: [Synth 8-3886] merging instance 'RUN_Q_2_11_reg[4]__1' (FDRE) to 'RUN_Q_2_11_reg[4]__0'
+INFO: [Synth 8-3886] merging instance 'RUN_Q_2_3_reg[4]__1' (FDRE) to 'RUN_Q_2_3_reg[4]__0'
+INFO: [Synth 8-3886] merging instance 'RUN_Q_2_7_reg[4]__1' (FDRE) to 'RUN_Q_2_7_reg[4]__0'
+INFO: [Synth 8-3886] merging instance 'RUN_QGF_2_7_reg[5]__0' (FDRE) to 'RUN_QGF_2_7_reg[5]'
+INFO: [Synth 8-3886] merging instance 'RUN_QGF_2_7_reg[3]__0' (FDRE) to 'RUN_QGF_2_7_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RUN_QGF_2_7_reg[4]__0' (FDRE) to 'RUN_QGF_2_7_reg[4]'
+INFO: [Synth 8-3886] merging instance 'RUN_QGF_2_3_reg[4]__1' (FDRE) to 'RUN_QGF_2_3_reg[4]__0'
+INFO: [Synth 8-3886] merging instance 'RUN_QGF_2_3_reg[5]__1' (FDRE) to 'RUN_QGF_2_3_reg[5]__0'
+INFO: [Synth 8-3886] merging instance 'RUN_QGF_2_5_reg[1]__1' (FDRE) to 'RUN_QGF_2_5_reg[1]__0'
+INFO: [Synth 8-3886] merging instance 'RUN_QGF_2_5_reg[2]__1' (FDRE) to 'RUN_QGF_2_5_reg[2]__0'
+INFO: [Synth 8-3886] merging instance 'RUN_HS_2_2_reg[4]__1' (FDRE) to 'RUN_HS_2_2_reg[4]__0'
+INFO: [Synth 8-3886] merging instance 'RUN_HS_2_2_reg[5]__1' (FDRE) to 'RUN_HS_2_2_reg[5]__0'
+INFO: [Synth 8-3886] merging instance 'RUN_QGF_2_3_reg[2]__1' (FDRE) to 'RUN_QGF_2_3_reg[2]__0'
+INFO: [Synth 8-3886] merging instance 'RUN_QGF_2_3_reg[3]__1' (FDRE) to 'RUN_QGF_2_3_reg[3]__0'
+INFO: [Synth 8-3886] merging instance 'RUN_Q_2_5_reg[4]' (FDRE) to 'RUN_Q_2_5_reg[4]__1'
+INFO: [Synth 8-3886] merging instance 'RUN_Q_2_1_reg[4]' (FDRE) to 'RUN_Q_2_1_reg[4]__1'
+INFO: [Synth 8-3886] merging instance 'RUN_Q_2_5_reg[1]' (FDRE) to 'RUN_Q_2_5_reg[1]__1'
+INFO: [Synth 8-3886] merging instance 'RUN_Q_2_5_reg[2]' (FDRE) to 'RUN_Q_2_5_reg[2]__1'
+INFO: [Synth 8-3886] merging instance 'RUN_Q_2_5_reg[3]' (FDRE) to 'RUN_Q_2_5_reg[3]__1'
+INFO: [Synth 8-3886] merging instance 'RUN_Q_2_1_reg[2]' (FDRE) to 'RUN_Q_2_1_reg[2]__1'
+INFO: [Synth 8-3886] merging instance 'RUN_Q_2_1_reg[3]' (FDRE) to 'RUN_Q_2_1_reg[3]__1'
+INFO: [Synth 8-3886] merging instance 'RUN_QGF_2_9_reg[3]__0' (FDRE) to 'RUN_QGF_2_9_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RUN_QGF_2_9_reg[4]__0' (FDRE) to 'RUN_QGF_2_9_reg[4]'
+INFO: [Synth 8-3886] merging instance 'RUN_QGF_2_9_reg[2]__0' (FDRE) to 'RUN_QGF_2_9_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RUN_QGF_2_9_reg[5]__0' (FDRE) to 'RUN_QGF_2_9_reg[5]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:16 ; elapsed = 00:02:24 . Memory (MB): peak = 1081.145 ; gain = 722.848
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:19 ; elapsed = 00:02:27 . Memory (MB): peak = 1081.145 ; gain = 722.848
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:19 ; elapsed = 00:02:27 . Memory (MB): peak = 1081.145 ; gain = 722.848
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:21 ; elapsed = 00:02:30 . Memory (MB): peak = 1081.145 ; gain = 722.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:21 ; elapsed = 00:02:30 . Memory (MB): peak = 1081.145 ; gain = 722.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:22 ; elapsed = 00:02:30 . Memory (MB): peak = 1081.145 ; gain = 722.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:22 ; elapsed = 00:02:30 . Memory (MB): peak = 1081.145 ; gain = 722.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+----------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                   | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+----------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|robot_A7    | UART_DATA_FIFO_EMPTY_3_reg | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|robot_A7    | SW1_TMP_17_reg             | 16     | 1     | NO           | NO                 | YES               | 1      | 0       | 
++------------+----------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+---------------+----------+
+|      |BlackBox name  |Instances |
++------+---------------+----------+
+|1     |UART_DATA_FIFO |         1|
+|2     |clk_10M        |         1|
++------+---------------+----------+
+
+Report Cell Usage: 
++------+---------------+------+
+|      |Cell           |Count |
++------+---------------+------+
+|1     |UART_DATA_FIFO |     1|
+|2     |clk_10M        |     1|
+|3     |CARRY4         |  2754|
+|4     |DSP48E1        |     3|
+|5     |DSP48E1_1      |    10|
+|6     |LUT1           |  2114|
+|7     |LUT2           |  5115|
+|8     |LUT3           |  2608|
+|9     |LUT4           |  2250|
+|10    |LUT5           |  1722|
+|11    |LUT6           |  2436|
+|12    |MUXF7          |   479|
+|13    |MUXF8          |    42|
+|14    |SRL16E         |     2|
+|15    |FDCE           |    31|
+|16    |FDRE           |   982|
+|17    |IBUF           |     4|
+|18    |OBUF           |    22|
++------+---------------+------+
+
+Report Instance Areas: 
++------+------------------------------------+---------------------------+------+
+|      |Instance                            |Module                     |Cells |
++------+------------------------------------+---------------------------+------+
+|1     |top                                 |                           | 20587|
+|2     |  u_uart_decode                     |decode                     |    19|
+|3     |  DJ_DATA_ROM                       |DJ_DATA_ROM                |    11|
+|4     |    U0                              |dist_mem_gen_v8_0_12       |    11|
+|5     |      \synth_options.dist_mem_inst  |dist_mem_gen_v8_0_12_synth |    11|
+|6     |        \gen_rom.rom_inst           |rom                        |    11|
+|7     |  control1                          |control                    |   364|
+|8     |  u_uart                            |BlueTooth_0                |    68|
+|9     |    inst                            |uart_top                   |    68|
+|10    |      CLK_div                       |clk                        |     8|
+|11    |      RX                            |uart_rx                    |    37|
+|12    |      TX                            |uart_tx                    |    23|
++------+------------------------------------+---------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:22 ; elapsed = 00:02:30 . Memory (MB): peak = 1081.145 ; gain = 722.848
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 285 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:57 ; elapsed = 00:02:17 . Memory (MB): peak = 1081.145 ; gain = 382.734
+Synthesis Optimization Complete : Time (s): cpu = 00:02:22 ; elapsed = 00:02:31 . Memory (MB): peak = 1081.145 ; gain = 722.848
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 3292 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'robot_A7' is not ideal for floorplanning, since the cellview 'robot_A7' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+331 Infos, 252 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:29 ; elapsed = 00:02:39 . Memory (MB): peak = 1081.145 ; gain = 734.316
+INFO: [Common 17-1381] The checkpoint 'C:/Users/84646/Desktop/Robot2.15h/Robot2.00.runs/synth_1/robot_A7.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1081.145 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file robot_A7_utilization_synth.rpt -pb robot_A7_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.194 . Memory (MB): peak = 1081.145 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Nov  1 12:21:14 2019...

@@ -1,0 +1,1077 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2017.1 (64-bit)                     -->
+<!--                                                              -->
+<!-- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.        -->
+
+<hwsession version="1" minor="2">
+  <device name="xc7a35t_0" gui_info="dashboard1=hw_ila_1[xc7a35t_0/hw_ila_1/Settings=ILA_SETTINGS_1;xc7a35t_0/hw_ila_1/Status=ILA_STATUS_1;xc7a35t_0/hw_ila_1/Trigger Setup=ILA_TRIGGER_1;xc7a35t_0/hw_ila_1/Waveform=ILA_WAVE_1;xc7a35t_0/hw_ila_1/Capture Setup=ILA_CAPTURE_1;]"/>
+  <ObjectList object_type="hw_cfgmem" gui_info="">
+    <Object name="" gui_info="">
+      <Properties Property="PROGRAM.ADDRESS_RANGE" value="use_file"/>
+      <Properties Property="PROGRAM.BLANK_CHECK" value="0"/>
+      <Properties Property="PROGRAM.CFG_PROGRAM" value="1"/>
+      <Properties Property="PROGRAM.CHECKSUM" value="0"/>
+      <Properties Property="PROGRAM.ERASE" value="1"/>
+      <Properties Property="PROGRAM.FILES" value="$_project_name_.runs/robot.mcs"/>
+      <Properties Property="PROGRAM.PRM_FILE" value="$_project_name_.runs/robot.prm"/>
+      <Properties Property="PROGRAM.UNUSED_PIN_TERMINATION" value="pull-down"/>
+      <Properties Property="PROGRAM.VERIFY" value="1"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_device" gui_info="">
+    <Object name="xc7a35t_0" gui_info="">
+      <Properties Property="FULL_PROBES.FILE" value="$_project_name_.runs/impl_1/robot_A7.ltx"/>
+      <Properties Property="PROBES.FILE" value="$_project_name_.runs/impl_1/robot_A7.ltx"/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value=""/>
+      <Properties Property="PROGRAM.HW_CFGMEM_PART" value="n25q32-3.3v-spi-x1_x2_x4"/>
+      <Properties Property="SLR.COUNT" value="1"/>
+    </Object>
+    <Object name="xc7a35t_0_1" gui_info="">
+      <Properties Property="FULL_PROBES.FILE" value=""/>
+      <Properties Property="PROBES.FILE" value=""/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value="$_project_name_.runs/impl_1/robot_A7.bit"/>
+    </Object>
+    <Object name="xc7a35t_0_2" gui_info="">
+      <Properties Property="FULL_PROBES.FILE" value=""/>
+      <Properties Property="PROBES.FILE" value=""/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value="$_project_name_.runs/impl_1/robot_A7.bit"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_ila" gui_info="">
+    <Object name="hw_ila_1" gui_info="">
+      <Properties Property="CONTROL.TRIGGER_CONDITION" value="AND"/>
+      <Properties Property="CORE_REFRESH_RATE_MS" value="500"/>
+    </Object>
+    <Object name="u_ila_0" gui_info="">
+      <Properties Property="CONTROL.DATA_DEPTH" value="8192"/>
+      <Properties Property="CONTROL.TRIGGER_CONDITION" value="AND"/>
+      <Properties Property="CONTROL.TRIGGER_POSITION" value="200"/>
+      <Properties Property="CONTROL.WINDOW_COUNT" value="1"/>
+      <Properties Property="CORE_REFRESH_RATE_MS" value="500"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_probe" gui_info="">
+    <Object name="Count_CTRL[5:0]" gui_info=""/>
+    <Object name="RUN_QGF_1[5:0]" gui_info="Trigger Setup=0"/>
+    <Object name="RUN_QGF_2_1[5:0]" gui_info=""/>
+    <Object name="RUN_QGF_C[5:0]" gui_info=""/>
+    <Object name="SW1_TMP" gui_info="Trigger Setup=0"/>
+    <Object name="UART_RX_DONE" gui_info="Trigger Setup=0"/>
+  </ObjectList>
+  <probeset name="hw project" active="false">
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq6&apos;hXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq6&apos;hXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe0[5:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq6&apos;hXX"/>
+      </probeOptions>
+      <nets>
+        <net name="Count_CTRL[5]"/>
+        <net name="Count_CTRL[4]"/>
+        <net name="Count_CTRL[3]"/>
+        <net name="Count_CTRL[2]"/>
+        <net name="Count_CTRL[1]"/>
+        <net name="Count_CTRL[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq8&apos;hXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq8&apos;hXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe0[7:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq8&apos;hXX"/>
+      </probeOptions>
+      <nets>
+        <net name="Count_CTRL[7]"/>
+        <net name="Count_CTRL[6]"/>
+        <net name="Count_CTRL[5]"/>
+        <net name="Count_CTRL[4]"/>
+        <net name="Count_CTRL[3]"/>
+        <net name="Count_CTRL[2]"/>
+        <net name="Count_CTRL[1]"/>
+        <net name="Count_CTRL[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq8&apos;hXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq8&apos;hXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe3[7:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq8&apos;hXX"/>
+      </probeOptions>
+      <nets>
+        <net name="Count_CTRL_OLD[7]"/>
+        <net name="Count_CTRL_OLD[6]"/>
+        <net name="Count_CTRL_OLD[5]"/>
+        <net name="Count_CTRL_OLD[4]"/>
+        <net name="Count_CTRL_OLD[3]"/>
+        <net name="Count_CTRL_OLD[2]"/>
+        <net name="Count_CTRL_OLD[1]"/>
+        <net name="Count_CTRL_OLD[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq8&apos;hXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq8&apos;hXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe2[7:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq8&apos;hXX"/>
+      </probeOptions>
+      <nets>
+        <net name="Count_CTRL_TMP[7]"/>
+        <net name="Count_CTRL_TMP[6]"/>
+        <net name="Count_CTRL_TMP[5]"/>
+        <net name="Count_CTRL_TMP[4]"/>
+        <net name="Count_CTRL_TMP[3]"/>
+        <net name="Count_CTRL_TMP[2]"/>
+        <net name="Count_CTRL_TMP[1]"/>
+        <net name="Count_CTRL_TMP[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;hXXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe9[15:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="DJ_ID10[15]"/>
+        <net name="DJ_ID10[14]"/>
+        <net name="DJ_ID10[13]"/>
+        <net name="DJ_ID10[12]"/>
+        <net name="DJ_ID10[11]"/>
+        <net name="DJ_ID10[10]"/>
+        <net name="DJ_ID10[9]"/>
+        <net name="DJ_ID10[8]"/>
+        <net name="DJ_ID10[7]"/>
+        <net name="DJ_ID10[6]"/>
+        <net name="DJ_ID10[5]"/>
+        <net name="DJ_ID10[4]"/>
+        <net name="DJ_ID10[3]"/>
+        <net name="DJ_ID10[2]"/>
+        <net name="DJ_ID10[1]"/>
+        <net name="DJ_ID10[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;hXXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe2[15:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="DJ_ID11[15]"/>
+        <net name="DJ_ID11[14]"/>
+        <net name="DJ_ID11[13]"/>
+        <net name="DJ_ID11[12]"/>
+        <net name="DJ_ID11[11]"/>
+        <net name="DJ_ID11[10]"/>
+        <net name="DJ_ID11[9]"/>
+        <net name="DJ_ID11[8]"/>
+        <net name="DJ_ID11[7]"/>
+        <net name="DJ_ID11[6]"/>
+        <net name="DJ_ID11[5]"/>
+        <net name="DJ_ID11[4]"/>
+        <net name="DJ_ID11[3]"/>
+        <net name="DJ_ID11[2]"/>
+        <net name="DJ_ID11[1]"/>
+        <net name="DJ_ID11[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;hXXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe10[15:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="DJ_ID12[15]"/>
+        <net name="DJ_ID12[14]"/>
+        <net name="DJ_ID12[13]"/>
+        <net name="DJ_ID12[12]"/>
+        <net name="DJ_ID12[11]"/>
+        <net name="DJ_ID12[10]"/>
+        <net name="DJ_ID12[9]"/>
+        <net name="DJ_ID12[8]"/>
+        <net name="DJ_ID12[7]"/>
+        <net name="DJ_ID12[6]"/>
+        <net name="DJ_ID12[5]"/>
+        <net name="DJ_ID12[4]"/>
+        <net name="DJ_ID12[3]"/>
+        <net name="DJ_ID12[2]"/>
+        <net name="DJ_ID12[1]"/>
+        <net name="DJ_ID12[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;hXXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe3[15:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="DJ_ID13[15]"/>
+        <net name="DJ_ID13[14]"/>
+        <net name="DJ_ID13[13]"/>
+        <net name="DJ_ID13[12]"/>
+        <net name="DJ_ID13[11]"/>
+        <net name="DJ_ID13[10]"/>
+        <net name="DJ_ID13[9]"/>
+        <net name="DJ_ID13[8]"/>
+        <net name="DJ_ID13[7]"/>
+        <net name="DJ_ID13[6]"/>
+        <net name="DJ_ID13[5]"/>
+        <net name="DJ_ID13[4]"/>
+        <net name="DJ_ID13[3]"/>
+        <net name="DJ_ID13[2]"/>
+        <net name="DJ_ID13[1]"/>
+        <net name="DJ_ID13[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;hXXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe7[15:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="DJ_ID14[15]"/>
+        <net name="DJ_ID14[14]"/>
+        <net name="DJ_ID14[13]"/>
+        <net name="DJ_ID14[12]"/>
+        <net name="DJ_ID14[11]"/>
+        <net name="DJ_ID14[10]"/>
+        <net name="DJ_ID14[9]"/>
+        <net name="DJ_ID14[8]"/>
+        <net name="DJ_ID14[7]"/>
+        <net name="DJ_ID14[6]"/>
+        <net name="DJ_ID14[5]"/>
+        <net name="DJ_ID14[4]"/>
+        <net name="DJ_ID14[3]"/>
+        <net name="DJ_ID14[2]"/>
+        <net name="DJ_ID14[1]"/>
+        <net name="DJ_ID14[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;hXXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe11[15:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="DJ_ID15[15]"/>
+        <net name="DJ_ID15[14]"/>
+        <net name="DJ_ID15[13]"/>
+        <net name="DJ_ID15[12]"/>
+        <net name="DJ_ID15[11]"/>
+        <net name="DJ_ID15[10]"/>
+        <net name="DJ_ID15[9]"/>
+        <net name="DJ_ID15[8]"/>
+        <net name="DJ_ID15[7]"/>
+        <net name="DJ_ID15[6]"/>
+        <net name="DJ_ID15[5]"/>
+        <net name="DJ_ID15[4]"/>
+        <net name="DJ_ID15[3]"/>
+        <net name="DJ_ID15[2]"/>
+        <net name="DJ_ID15[1]"/>
+        <net name="DJ_ID15[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;hXXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe4[15:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="DJ_ID16[15]"/>
+        <net name="DJ_ID16[14]"/>
+        <net name="DJ_ID16[13]"/>
+        <net name="DJ_ID16[12]"/>
+        <net name="DJ_ID16[11]"/>
+        <net name="DJ_ID16[10]"/>
+        <net name="DJ_ID16[9]"/>
+        <net name="DJ_ID16[8]"/>
+        <net name="DJ_ID16[7]"/>
+        <net name="DJ_ID16[6]"/>
+        <net name="DJ_ID16[5]"/>
+        <net name="DJ_ID16[4]"/>
+        <net name="DJ_ID16[3]"/>
+        <net name="DJ_ID16[2]"/>
+        <net name="DJ_ID16[1]"/>
+        <net name="DJ_ID16[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;hXXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe5[15:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="DJ_ID17[15]"/>
+        <net name="DJ_ID17[14]"/>
+        <net name="DJ_ID17[13]"/>
+        <net name="DJ_ID17[12]"/>
+        <net name="DJ_ID17[11]"/>
+        <net name="DJ_ID17[10]"/>
+        <net name="DJ_ID17[9]"/>
+        <net name="DJ_ID17[8]"/>
+        <net name="DJ_ID17[7]"/>
+        <net name="DJ_ID17[6]"/>
+        <net name="DJ_ID17[5]"/>
+        <net name="DJ_ID17[4]"/>
+        <net name="DJ_ID17[3]"/>
+        <net name="DJ_ID17[2]"/>
+        <net name="DJ_ID17[1]"/>
+        <net name="DJ_ID17[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;hXXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe1[15:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="DJ_ID1[15]"/>
+        <net name="DJ_ID1[14]"/>
+        <net name="DJ_ID1[13]"/>
+        <net name="DJ_ID1[12]"/>
+        <net name="DJ_ID1[11]"/>
+        <net name="DJ_ID1[10]"/>
+        <net name="DJ_ID1[9]"/>
+        <net name="DJ_ID1[8]"/>
+        <net name="DJ_ID1[7]"/>
+        <net name="DJ_ID1[6]"/>
+        <net name="DJ_ID1[5]"/>
+        <net name="DJ_ID1[4]"/>
+        <net name="DJ_ID1[3]"/>
+        <net name="DJ_ID1[2]"/>
+        <net name="DJ_ID1[1]"/>
+        <net name="DJ_ID1[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;hXXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe6[15:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="DJ_ID2[15]"/>
+        <net name="DJ_ID2[14]"/>
+        <net name="DJ_ID2[13]"/>
+        <net name="DJ_ID2[12]"/>
+        <net name="DJ_ID2[11]"/>
+        <net name="DJ_ID2[10]"/>
+        <net name="DJ_ID2[9]"/>
+        <net name="DJ_ID2[8]"/>
+        <net name="DJ_ID2[7]"/>
+        <net name="DJ_ID2[6]"/>
+        <net name="DJ_ID2[5]"/>
+        <net name="DJ_ID2[4]"/>
+        <net name="DJ_ID2[3]"/>
+        <net name="DJ_ID2[2]"/>
+        <net name="DJ_ID2[1]"/>
+        <net name="DJ_ID2[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;hXXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe8[15:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="DJ_ID3[15]"/>
+        <net name="DJ_ID3[14]"/>
+        <net name="DJ_ID3[13]"/>
+        <net name="DJ_ID3[12]"/>
+        <net name="DJ_ID3[11]"/>
+        <net name="DJ_ID3[10]"/>
+        <net name="DJ_ID3[9]"/>
+        <net name="DJ_ID3[8]"/>
+        <net name="DJ_ID3[7]"/>
+        <net name="DJ_ID3[6]"/>
+        <net name="DJ_ID3[5]"/>
+        <net name="DJ_ID3[4]"/>
+        <net name="DJ_ID3[3]"/>
+        <net name="DJ_ID3[2]"/>
+        <net name="DJ_ID3[1]"/>
+        <net name="DJ_ID3[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;hXXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe14[15:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="DJ_ID4[15]"/>
+        <net name="DJ_ID4[14]"/>
+        <net name="DJ_ID4[13]"/>
+        <net name="DJ_ID4[12]"/>
+        <net name="DJ_ID4[11]"/>
+        <net name="DJ_ID4[10]"/>
+        <net name="DJ_ID4[9]"/>
+        <net name="DJ_ID4[8]"/>
+        <net name="DJ_ID4[7]"/>
+        <net name="DJ_ID4[6]"/>
+        <net name="DJ_ID4[5]"/>
+        <net name="DJ_ID4[4]"/>
+        <net name="DJ_ID4[3]"/>
+        <net name="DJ_ID4[2]"/>
+        <net name="DJ_ID4[1]"/>
+        <net name="DJ_ID4[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;hXXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe13[15:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="DJ_ID5[15]"/>
+        <net name="DJ_ID5[14]"/>
+        <net name="DJ_ID5[13]"/>
+        <net name="DJ_ID5[12]"/>
+        <net name="DJ_ID5[11]"/>
+        <net name="DJ_ID5[10]"/>
+        <net name="DJ_ID5[9]"/>
+        <net name="DJ_ID5[8]"/>
+        <net name="DJ_ID5[7]"/>
+        <net name="DJ_ID5[6]"/>
+        <net name="DJ_ID5[5]"/>
+        <net name="DJ_ID5[4]"/>
+        <net name="DJ_ID5[3]"/>
+        <net name="DJ_ID5[2]"/>
+        <net name="DJ_ID5[1]"/>
+        <net name="DJ_ID5[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;hXXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe15[15:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="DJ_ID6[15]"/>
+        <net name="DJ_ID6[14]"/>
+        <net name="DJ_ID6[13]"/>
+        <net name="DJ_ID6[12]"/>
+        <net name="DJ_ID6[11]"/>
+        <net name="DJ_ID6[10]"/>
+        <net name="DJ_ID6[9]"/>
+        <net name="DJ_ID6[8]"/>
+        <net name="DJ_ID6[7]"/>
+        <net name="DJ_ID6[6]"/>
+        <net name="DJ_ID6[5]"/>
+        <net name="DJ_ID6[4]"/>
+        <net name="DJ_ID6[3]"/>
+        <net name="DJ_ID6[2]"/>
+        <net name="DJ_ID6[1]"/>
+        <net name="DJ_ID6[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;hXXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe16[15:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="DJ_ID7[15]"/>
+        <net name="DJ_ID7[14]"/>
+        <net name="DJ_ID7[13]"/>
+        <net name="DJ_ID7[12]"/>
+        <net name="DJ_ID7[11]"/>
+        <net name="DJ_ID7[10]"/>
+        <net name="DJ_ID7[9]"/>
+        <net name="DJ_ID7[8]"/>
+        <net name="DJ_ID7[7]"/>
+        <net name="DJ_ID7[6]"/>
+        <net name="DJ_ID7[5]"/>
+        <net name="DJ_ID7[4]"/>
+        <net name="DJ_ID7[3]"/>
+        <net name="DJ_ID7[2]"/>
+        <net name="DJ_ID7[1]"/>
+        <net name="DJ_ID7[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;hXXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe12[15:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="DJ_ID8[15]"/>
+        <net name="DJ_ID8[14]"/>
+        <net name="DJ_ID8[13]"/>
+        <net name="DJ_ID8[12]"/>
+        <net name="DJ_ID8[11]"/>
+        <net name="DJ_ID8[10]"/>
+        <net name="DJ_ID8[9]"/>
+        <net name="DJ_ID8[8]"/>
+        <net name="DJ_ID8[7]"/>
+        <net name="DJ_ID8[6]"/>
+        <net name="DJ_ID8[5]"/>
+        <net name="DJ_ID8[4]"/>
+        <net name="DJ_ID8[3]"/>
+        <net name="DJ_ID8[2]"/>
+        <net name="DJ_ID8[1]"/>
+        <net name="DJ_ID8[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;hXXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe17[15:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="DJ_ID9[15]"/>
+        <net name="DJ_ID9[14]"/>
+        <net name="DJ_ID9[13]"/>
+        <net name="DJ_ID9[12]"/>
+        <net name="DJ_ID9[11]"/>
+        <net name="DJ_ID9[10]"/>
+        <net name="DJ_ID9[9]"/>
+        <net name="DJ_ID9[8]"/>
+        <net name="DJ_ID9[7]"/>
+        <net name="DJ_ID9[6]"/>
+        <net name="DJ_ID9[5]"/>
+        <net name="DJ_ID9[4]"/>
+        <net name="DJ_ID9[3]"/>
+        <net name="DJ_ID9[2]"/>
+        <net name="DJ_ID9[1]"/>
+        <net name="DJ_ID9[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq5&apos;hXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq5&apos;hXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe18[4:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq5&apos;hXX"/>
+      </probeOptions>
+      <nets>
+        <net name="DJ_ROM_ADDR[4]"/>
+        <net name="DJ_ROM_ADDR[3]"/>
+        <net name="DJ_ROM_ADDR[2]"/>
+        <net name="DJ_ROM_ADDR[1]"/>
+        <net name="DJ_ROM_ADDR[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;hXXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe19[15:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="DJ_ROM_DATA[15]"/>
+        <net name="DJ_ROM_DATA[14]"/>
+        <net name="DJ_ROM_DATA[13]"/>
+        <net name="DJ_ROM_DATA[12]"/>
+        <net name="DJ_ROM_DATA[11]"/>
+        <net name="DJ_ROM_DATA[10]"/>
+        <net name="DJ_ROM_DATA[9]"/>
+        <net name="DJ_ROM_DATA[8]"/>
+        <net name="DJ_ROM_DATA[7]"/>
+        <net name="DJ_ROM_DATA[6]"/>
+        <net name="DJ_ROM_DATA[5]"/>
+        <net name="DJ_ROM_DATA[4]"/>
+        <net name="DJ_ROM_DATA[3]"/>
+        <net name="DJ_ROM_DATA[2]"/>
+        <net name="DJ_ROM_DATA[1]"/>
+        <net name="DJ_ROM_DATA[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq6&apos;hXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq6&apos;h02"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe1[5:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq6&apos;h02"/>
+      </probeOptions>
+      <nets>
+        <net name="RUN_QGF_1[5]"/>
+        <net name="RUN_QGF_1[4]"/>
+        <net name="RUN_QGF_1[3]"/>
+        <net name="RUN_QGF_1[2]"/>
+        <net name="RUN_QGF_1[1]"/>
+        <net name="RUN_QGF_1[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq6&apos;hXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq6&apos;hXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe4[5:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq6&apos;hXX"/>
+      </probeOptions>
+      <nets>
+        <net name="RUN_QGF_2_1[5]"/>
+        <net name="RUN_QGF_2_1[4]"/>
+        <net name="RUN_QGF_2_1[3]"/>
+        <net name="RUN_QGF_2_1[2]"/>
+        <net name="RUN_QGF_2_1[1]"/>
+        <net name="RUN_QGF_2_1[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq6&apos;hXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq6&apos;hXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe2[5:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq6&apos;hXX"/>
+      </probeOptions>
+      <nets>
+        <net name="RUN_QGF_2_2[5]"/>
+        <net name="RUN_QGF_2_2[4]"/>
+        <net name="RUN_QGF_2_2[3]"/>
+        <net name="RUN_QGF_2_2[2]"/>
+        <net name="RUN_QGF_2_2[1]"/>
+        <net name="RUN_QGF_2_2[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq6&apos;hXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq6&apos;hXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe3[5:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq6&apos;hXX"/>
+      </probeOptions>
+      <nets>
+        <net name="RUN_QGF_C[5]"/>
+        <net name="RUN_QGF_C[4]"/>
+        <net name="RUN_QGF_C[3]"/>
+        <net name="RUN_QGF_C[2]"/>
+        <net name="RUN_QGF_C[1]"/>
+        <net name="RUN_QGF_C[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe4[0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="Robot_ADV_flag"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe5[0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="Robot_BAK_flag"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;b1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe20[0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;b1"/>
+      </probeOptions>
+      <nets>
+        <net name="SW1_TMP"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe21[0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="SW1_TMP1_1"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe6[0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="SW2_TMP"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq8&apos;hXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq8&apos;hXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe1[7:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq8&apos;hXX"/>
+      </probeOptions>
+      <nets>
+        <net name="UART_DATA_FIFO_DOUT[7]"/>
+        <net name="UART_DATA_FIFO_DOUT[6]"/>
+        <net name="UART_DATA_FIFO_DOUT[5]"/>
+        <net name="UART_DATA_FIFO_DOUT[4]"/>
+        <net name="UART_DATA_FIFO_DOUT[3]"/>
+        <net name="UART_DATA_FIFO_DOUT[2]"/>
+        <net name="UART_DATA_FIFO_DOUT[1]"/>
+        <net name="UART_DATA_FIFO_DOUT[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe7[0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="UART_DATA_FIFO_EMPTY"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe8[0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="UART_DATA_FIFO_EMPTY_5"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe9[0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="UART_DATA_FIFO_FULL"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe10[0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="UART_RX"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq8&apos;hXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq8&apos;hXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe0[7:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq8&apos;hXX"/>
+      </probeOptions>
+      <nets>
+        <net name="UART_RX_DATA[7]"/>
+        <net name="UART_RX_DATA[6]"/>
+        <net name="UART_RX_DATA[5]"/>
+        <net name="UART_RX_DATA[4]"/>
+        <net name="UART_RX_DATA[3]"/>
+        <net name="UART_RX_DATA[2]"/>
+        <net name="UART_RX_DATA[1]"/>
+        <net name="UART_RX_DATA[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;b1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe11[0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;b1"/>
+      </probeOptions>
+      <nets>
+        <net name="UART_RX_DONE"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe12[0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="UART_TX_DONE"/>
+      </nets>
+    </probe>
+  </probeset>
+</hwsession>

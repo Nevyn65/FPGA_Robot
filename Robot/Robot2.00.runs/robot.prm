@@ -1,0 +1,11 @@
+===================================
+Configuration Memory information
+===================================
+File Format        MCS
+Interface          SPIX1
+Size               4M
+Start Address      0x00000000
+End Address        0x003FFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x0021728B    May 23 12:25:47 2018    E:/FPGA_LOGIC/Robot/Robot2.15h/Robot2.00.runs/impl_1/robot_A7.bit
